@@ -1,18 +1,9 @@
-function palindrome(str) {
-  const strLower = str.toLowerCase().replace(/\W|\_/g, '');
-  const strJoined = strLower.split('').reverse().join('');
-  return strLower === strJoined;
-}
-
-console.log(palindrome('_eye'));
-console.log(palindrome('0_0 (: /- :) 0-0'));
-console.log(palindrome('five|_/|four'));
+import { palindrome } from './js/palindrome';
 
 // spaceDelete = .replace(/\s/g, '');
 // _Delete = .replace(/\_/g, '');
 // "|" means not or, "|" - means AND = .replace(/\_|\W/g, '');
 
-//
 // palindrome("eye") should return a boolean.
 // Waiting:palindrome("eye") should return true.
 // Waiting:palindrome("_eye") should return true.
