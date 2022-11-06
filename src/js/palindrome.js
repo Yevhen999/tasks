@@ -4,6 +4,8 @@ export function palindrome(str) {
   return strLowerRepl === strJoined;
 }
 
+// should be written shorter!!!
+
 // spaceDelete = .replace(/\s/g, '');
 // _Delete = .replace(/\_/g, '');
 // "|" means not OR, "|" - means AND = .replace(/\_|\W/g, '');

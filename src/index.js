@@ -1,5 +1,5 @@
 import { palindrome } from './js/palindrome';
-
+import { num } from './js/roman';
 // spaceDelete = .replace(/\s/g, '');
 // _Delete = .replace(/\_/g, '');
 // "|" means not or, "|" - means AND = .replace(/\_|\W/g, '');
