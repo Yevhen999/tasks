@@ -1,19 +1,2 @@
 import { palindrome } from './js/palindrome';
-import { num } from './js/roman';
-// spaceDelete = .replace(/\s/g, '');
-// _Delete = .replace(/\_/g, '');
-// "|" means not or, "|" - means AND = .replace(/\_|\W/g, '');
-
-// palindrome("eye") should return a boolean.
-// Waiting:palindrome("eye") should return true.
-// Waiting:palindrome("_eye") should return true.
-// Waiting:palindrome("race car") should return true.
-// Waiting:palindrome("not a palindrome") should return false.
-// Waiting:palindrome("A man, a plan, a canal. Panama") should return true.
-// Waiting:palindrome("never odd or even") should return true.
-// Waiting:palindrome("nope") should return false.
-// Waiting:palindrome("almostomla") should return false.
-// Waiting:palindrome("My age is 0, 0 si ega ym.") should return true.
-// Waiting:palindrome("1 eye for of 1 eye.") should return false.
-// Waiting:palindrome("0_0 (: /-\ :) 0-0") should return true.
-// Waiting:palindrome("five|\_/|four") should return false.
+import { convertToRoman } from './js/roman';

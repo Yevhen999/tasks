@@ -1,4 +1,4 @@
-function convertToRoman(num) {
+export function convertToRoman(num) {
   const dependence = {
     M: 1000,
     CM: 900,
