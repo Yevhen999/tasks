@@ -32,11 +32,6 @@ export function convertToRoman(num) {
   return numbers[num].toString();
 }
 
-console.log(convertToRoman(3999));
-
-// convertToRoman(2) should return the string II.
-// Waiting:convertToRoman(3) should return the string III.
-
 // Waiting:convertToRoman(1004) should return the string MIV
 // Waiting:convertToRoman(1006) should return the string MVI
 // Waiting:convertToRoman(1023) should return the string MXXIII
