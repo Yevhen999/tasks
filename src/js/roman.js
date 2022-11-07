@@ -32,12 +32,6 @@ export function convertToRoman(num) {
   return numbers[num].toString();
 }
 
-// Waiting:convertToRoman(1004) should return the string MIV
-// Waiting:convertToRoman(1006) should return the string MVI
-// Waiting:convertToRoman(1023) should return the string MXXIII
-// Waiting:convertToRoman(2014) should return the string MMXIV
-// Waiting:convertToRoman(3999) should return the string MMMCMXCIX
-
 // Roman numerals	Arabic numerals
 // M	1000
 // CM	900
